@@ -1,5 +1,5 @@
 #! /bin/sh
-BODY="dst=https%3A%2F%2Fconnect.meinhotspot.com%2Fde%2Fclient%2Fredirect&popup=true&username=66%3A31%3AC4%3A36%3AB9%3A73&password=66%3A31%3AC4%3A36%3AB9%3A73&mac=66%3A31%3AC4%3A36%3AB9%3A73"
+BODY="dst=https%3A%2F%2Fconnect.meinhotspot.com%2Fde%2Fclient%2Fredirect&popup=true&username=XX%3AXX%3AXX%3AXX%3AXX%3AXX&password=XX%3AXX%3AXX%3AXX%3AXX%3AXX&mac=XX%3AXX%3AXX%3AXX%3AXX%3AXX"
 wget -q -O- login.meinhotspot.com/login | grep 'Sie wurden soeben auf dem Hotspot eingeloggt und werden weitergeleitet.'
 rc=$?
 if [ $rc -ne 0 ]
